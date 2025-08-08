@@ -1,0 +1,145 @@
+.right {
+    background-color: #ffff;
+    width: 60%;
+    height: 100vw;
+    z-index: 0;
+
+    .experience {
+        margin: 5vw 5vw;
+
+        >h1 {
+            font-size: 2vw;
+            color: #393f59;
+            border-left: 1.5vw dotted rgb(255, 221, 0);
+            line-height: 0.7;
+            margin-bottom: 1vw;
+            padding-left: 1vw;
+            text-align: left;
+        }
+    }
+
+    .line {
+        width: 95%;
+        background-color: #393f59;
+        height: 0.2vw;
+        margin-left: 2.2vw;
+        margin-bottom: 1.5vw;
+        line-height: 0.7;
+    }
+
+    .ux-ui {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.2vw;
+
+        & p:nth-child(1) {
+            font-weight: bold;
+            font-size: 1.5vw;
+        }
+
+        & p:nth-child(2) {
+            font-weight: bold;
+            font-size: 1vw;
+        }
+    }
+
+    .pm2_5 {
+        margin-bottom: 1.2vw;
+    }
+
+    .java {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.2vw 0;
+
+        & p:nth-child(1) {
+            font-weight: bold;
+            font-size: 1.5vw;
+        }
+
+        & p:nth-child(2) {
+            font-weight: bold;
+            font-size: 1vw;
+        }
+    }
+
+    .basic_java {
+        margin-bottom: 1.2vw;
+    }
+
+    .education {
+        margin: 5vw 5vw;
+
+        >h1 {
+            font-size: 2vw;
+            color: #393f59;
+            border-left: 1.5vw dotted rgb(255, 221, 0);
+            margin-bottom: 1vw;
+            padding-left: 1vw;
+            text-align: left;
+        }
+    }
+
+
+    .edu {
+        margin-bottom: 1.2vw;
+    }
+    
+    .univercity{
+       display: flex;
+        justify-content: space-between;
+        margin: 1.2vw 0;
+
+        & p:nth-child(1) {
+            font-weight: bold;
+            font-size: 1.5vw;
+        }
+
+        & p:nth-child(2) {
+            font-weight: bold;
+            font-size: 1vw;
+        }
+
+        
+    }
+
+    .hobby{
+        margin: 5vw 5vw;
+
+        >h1 {
+            font-size: 2vw;
+            color: #393f59;
+            border-left: 1.5vw dotted rgb(255, 221, 0);
+           
+            margin-bottom: 1vw;
+            padding-left: 1vw;
+            text-align: left;
+        }
+
+        .my-hobby{
+            display: flex;
+            justify-content: space-around;
+            
+            div{
+               
+                border: 1px solid black;
+                border-radius: 1vw;
+                height: 1.5vw;
+                width: 8vw;
+                
+                p{
+                    display: flex;  
+                    align-items: center;
+                    justify-content: center;
+
+                    
+                }
+                
+                & :hover{
+                        box-shadow: 1vw 1vw 1vw rgba(0,0,0,0.3);;
+                    }
+            }
+        }
+
+    }
+}
