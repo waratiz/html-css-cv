@@ -1,0 +1,238 @@
+
+.container{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100VW;
+    overflow: hidden;
+}
+
+
+
+.left{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to top, #a6a9b8, #393f59 20%);
+    background-color:#393f59;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+
+    > h1{
+        padding-top: 2vw;
+        color: rgb(255, 221, 0);
+    }
+    p{
+        padding: 1vw 0 4vw 0;
+    }
+
+    .top{
+        width: 100%;
+        background: linear-gradient(to top,#393f59 ,#132763 60%);
+        background-color: rgb(255, 221, 0);
+        height: 12vw;
+        position: absolute;
+        z-index: 10;
+    }
+
+        .img {
+            position: relative;
+            width: 17vw;
+            height: 17vw;
+            margin: 4vw 0 2vw 0;
+    
+            img {
+                position: absolute;
+                
+                width: 17vw;
+                height: 17vw;
+                border-radius: 50%;
+                border: 5px solid rgb(255, 221, 0);
+                object-fit: cover;
+                transition: opacity 0.3s ease;
+               
+                
+            }
+    
+            .img1 {
+                z-index: 11;
+                opacity: 1;
+            }
+    
+            .img2 {
+                z-index: 10;
+                opacity: 0;
+            }
+    
+            &:hover {
+                .img1 {
+                    opacity: 0;
+                    z-index: 10;
+                }
+    
+                .img2 {
+                    opacity: 1;
+                    z-index: 11;
+                }
+            }
+        }
+
+    .my-con{
+
+        margin: 0 4vw 6vw 4vw;
+
+        .line{
+            width: 93%;
+            background-color: rgb(255, 221, 0);
+            height: 0.1vw;
+            margin: 1.5vw 2.2vw;
+        }
+        > h1{
+            font-size: 2vw;
+            color: rgb(255, 221, 0);
+            border-left: 1.5vw dotted  rgb(255, 221, 0);
+            line-height: 0.7;
+            margin-bottom: 1vw;
+            padding-left: 1vw;
+            text-align: left;
+        }
+
+        h1{
+            font-size: 1.5vw;
+            color: rgb(255, 221, 0);
+        }
+
+        .email {
+
+            text-align: left;
+
+            a{
+                
+                
+                color: white;
+               
+            }
+        }
+
+        .phone {
+            text-align: left;
+            p{
+                padding: 0;
+            }
+        }
+    }
+
+
+
+
+    .skills{
+        margin: 0 4vw;
+
+        .line{
+            width: 93%;
+            background-color: rgb(255, 221, 0);
+            height: 0.1vw;
+            margin: 1.5vw 2.2vw 3vw 2.2vw;
+            line-height: 0.7;
+        }
+
+        > h1{
+            font-size: 2vw;
+            color: rgb(255, 221, 0);
+            border-left: 1.5vw dotted  rgb(255, 221, 0);
+            line-height: 0.7;
+            margin-bottom: 1vw;
+            padding-left: 1vw;
+            text-align: left;
+        }
+
+        p{
+            text-align: left;
+        }
+
+        .web{
+            display: flex;
+            justify-content: space-between;
+            p{
+                padding-bottom: 1vw;
+            }
+        }
+
+        .progress1{
+           display: flex;
+           position: relative;
+           margin-bottom: 3vw;
+          
+            .yellow{
+                position: absolute;
+                width: 70%;
+                height: 0.5vw;
+                background-color: rgb(255, 221, 0);
+                border-radius: 1vw;
+                z-index: 10;
+                transition: 1s;
+            }
+
+            .dark{
+                position: absolute;
+                width: 100%;
+                height: 0.5vw;
+                background-color: #272b3d;
+                border-radius: 1vw;
+                z-index: -1;
+            }
+        }
+
+        .progress2{
+           display: flex;
+           position: relative;
+           margin-bottom: 3vw;
+          
+            .yellow{
+                position: absolute;
+                width: 60%;
+                height: 0.5vw;
+                background-color: rgb(255, 221, 0);
+                border-radius: 1vw;
+                z-index: 10;
+                transition: 1s;
+            }
+
+            .dark{
+                position: absolute;
+                width: 100%;
+                height: 0.5vw;
+                background-color: #272b3d;
+                border-radius: 1vw;
+                z-index: -1;
+            }
+        }
+
+        .progress3{
+           display: flex;
+           position: relative;
+           margin-bottom: 3vw;
+          
+            .yellow{
+                position: absolute;
+                width: 80%;
+                height: 0.5vw;
+                background-color: rgb(255, 221, 0);
+                border-radius: 1vw;
+                z-index: 10;
+                transition: 1s;
+            }
+
+            .dark{
+                position: absolute;
+                width: 100%;
+                height: 0.5vw;
+                background-color: #272b3d;
+                border-radius: 1vw;
+                z-index: -1;
+            }
+        }
+    }
+}
+
